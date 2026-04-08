@@ -19,9 +19,9 @@ We propose the **Probabilistic CVGL (PCVGL)** paradigm, which extends cross-view
 
 * **Dual Regularization Mechanism (DRM)**: Integrates localization difficulty and feature discriminability into variance learning, consisting of Difficulty-Aware Alignment (DAA) loss and Sparsity Constraint (SC) loss.
 
-Datasets 📊
+#Datasets 📊
 
-We evaluate RPF on four widely used clean benchmarks, and further construct corruption benchmarks to simulate uncertain environments.
+We evaluate RPF on three widely used clean benchmarks, and further construct corruption benchmarks to simulate uncertain environments.
 
 ## Clean Benchmarks 🏞️
 
@@ -36,7 +36,7 @@ We evaluate RPF on four widely used clean benchmarks, and further construct corr
 
 To evaluate robustness, we introduce corruptions (blur, noise, weather, digital) at multiple severity levels on VIGOR, CVACT, and University-1652, following the protocol of CVACT_val-C.
 
-Framework Architecture 🖇️
+#Framework Architecture 🖇️
 
 <div align="center">
   <img src="figures/framework.jpg" alt="RPF Framework" width="800">
@@ -64,7 +64,7 @@ Framework Architecture 🖇️
 - **DAA Loss**: Aligns variance with localization difficulty (similarity gap between positive and hardest negative)
 - **SC Loss**: Sparsity constraints on both variance and difficulty signal to prevent variance inflation and enhance feature separability
 
- Performance Results 🚀
+ #Performance Results 🚀
 
 ## Performance on Clean Benchmarks
 
@@ -143,13 +143,7 @@ pip install -r requirements.txt
 
 ```bash
 cd rpf/train
-python train_rpf.py --config configs/rpf_vigor.yaml
-```
-
-### Evaluation
-
-```bash
-python eval.py --checkpoint path/to/checkpoint --dataset vigor
+python train_universitySD.py
 ```
 
 ## Acknowledgements 🙏
@@ -157,7 +151,6 @@ python eval.py --checkpoint path/to/checkpoint --dataset vigor
 This work is supported by the Natural Science Foundation of China. We thank the authors of:
 - [CV-cities](https://github.com/GaoShuang98/CVCities) for the baseline framework
 - [Sample4Geo](https://github.com/Skyy93/Sample4Geo) for hard negative sampling strategy
-- [DINOv2](https://github.com/facebookresearch/dinov2) for the backbone
 
 ---
 
