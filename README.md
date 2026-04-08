@@ -28,7 +28,6 @@ We evaluate RPF on three widely used clean benchmarks, and further construct cor
 |:-------:|:----:|:------:|:------------|
 | **VIGOR** | Panorama ↔ Satellite | 105k / 90k | 4 US cities, cross-area & same-area modes |
 | **CVACT** | Panorama ↔ Satellite | 35.5k / 8.9k | Suburban & rural regions of Canberra |
-| **CVUSA** | Panorama ↔ Satellite | 35.5k / 8.9k | Diverse geographic environments across US |
 | **University-1652** | Drone ↔ Satellite | 1,652 buildings | 72 universities worldwide |
 
 ## Corruption Benchmarks 🔧
