@@ -149,7 +149,7 @@ We demonstrate that uncertainty in RPF is not merely noise but a meaningful indi
 <div align="center">
   <img src="figures/uncertainty_analysis.jpg" alt="Uncertainty analysis" width="700">
   <br>
-  <em>Left: Sparsification curve – removing high-uncertainty samples improves R@1. Right: Attention maps – variance suppresses uncertain regions (roads) while mean focuses on discriminative buildings.</em>
+  <em>(a) Comparison of uncertainty score distributions. (b) Sparsification curve: R@1 vs. the ratio of high-uncertainty samples removed. (c) and (d) relationships between uncertainty quantiles and R@1, and relative localization difficulty, respectively. Shaded areas indicate the 95% confidence interval. Clean and Corruption correspond to VIGOR Cross-Area and VIGOR_val-C Cross-Area results.</em>
 </div>
 
 ## Installation & Usage 🚂
