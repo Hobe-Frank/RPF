@@ -6,7 +6,7 @@
 
 </div>
 
-Description 📜
+# Description 📜
 --------------
 
 Cross-view geo-localization (CVGL) aims to localize ground images using geotagged satellite imagery. Existing methods project images onto deterministic point features in a shared embedding space, which limits their ability to model real-world image uncertainty arising from factors such as sparse textures and noise. Consequently, the resulting features are often corrupted by unreliable information.
@@ -19,8 +19,7 @@ We propose the **Probabilistic CVGL (PCVGL)** paradigm, which extends cross-view
 
 * **Dual Regularization Mechanism (DRM)**: Integrates localization difficulty and feature discriminability into variance learning, consisting of Difficulty-Aware Alignment (DAA) loss and Sparsity Constraint (SC) loss.
 
-#Datasets 📊
-
+# Datasets 📊
 We evaluate RPF on three widely used clean benchmarks, and further construct corruption benchmarks to simulate uncertain environments.
 
 ## Clean Benchmarks 🏞️
@@ -64,7 +63,7 @@ To evaluate robustness, we introduce corruptions (blur, noise, weather, digital)
 - **DAA Loss**: Aligns variance with localization difficulty (similarity gap between positive and hardest negative)
 - **SC Loss**: Sparsity constraints on both variance and difficulty signal to prevent variance inflation and enhance feature separability
 
- #Performance Results 🚀
+ # Performance Results 🚀
 
 ## Performance on Clean Benchmarks
 
