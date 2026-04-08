@@ -100,9 +100,8 @@ To evaluate robustness, we introduce corruptions (blur, noise, weather, digital)
 ## Robustness on Corruption Benchmarks
 
 ### University‑1652_val‑C
-#### Satellite→Drone
 
-**Table: Comparison with SOTA methods on the corrupted University-1652_val-C dataset (Satellite→Drone). Arrows represent more ↑ or less ↓ is better. Corruption Avg. denotes the average performance across all corruption types.**
+**Table: Comparison with SOTA methods on the corrupted University-1652_val-C dataset (Satellite→Drone).**
 
 | Method           | Blur-Gaussian  <br>(R@1_c↑ / RCE_c↓) | Weather-Brightness  <br>(R@1_c↑ / RCE_c↓) | Noise-Shot  <br>(R@1_c↑ / RCE_c↓) | Corruption Avg.  <br>(R@1_c↑ / RCE_c↓) |
 |:----------------:|:-------------------------------:|:-------------------------------------:|:----------------------------:|:----------------------------------:|
@@ -113,9 +112,8 @@ To evaluate robustness, we introduce corruptions (blur, noise, weather, digital)
 | CV-cities †      | 87.74 / 8.59                    | 91.60 / 4.18                         | 87.44 / 8.91                 | 89.05 / 7.23                      |
 | **RPF (ours)**   | **90.33** / **6.66**            | **93.04** / **3.85**                 | **88.95** / **8.08**         | **90.77** / **6.20**              |
 
-#### Drone→Satellite
 
-**Table: Comparison with SOTA methods on the corrupted University-1652_val-C dataset (Drone→Satellite). Arrows represent more ↑ or less ↓ is better. Corruption Avg. denotes the average performance across all corruption types.**
+**Table: Comparison with SOTA methods on the corrupted University-1652_val-C dataset (Drone→Satellite).**
 
 | Method           | Blur-Gaussian  <br>(R@1_c↑ / RCE_c↓) | Weather-Brightness  <br>(R@1_c↑ / RCE_c↓) | Noise-Shot  <br>(R@1_c↑ / RCE_c↓) | Corruption Avg.  <br>(R@1_c↑ / RCE_c↓) |
 |:----------------:|:-------------------------------:|:-------------------------------------:|:----------------------------:|:----------------------------------:|
