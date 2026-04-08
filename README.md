@@ -45,7 +45,7 @@ To evaluate robustness, we introduce corruptions (blur, noise, weather, digital)
 ## Key Features ✨
 
 ### Probabilistic Feature Representation
-- Maps each image to a Gaussian distribution: \( p(f|I) = \mathcal{N}(f; \mu, \text{diag}(\Sigma)) \)
+- Maps each image to a Gaussian distribution: p(f|I) = N(f; μ, diag(Σ))
 - Mean μ captures semantic content, variance Σ models dimension-wise reliability
 
 ### Uncertainty Mix Module (UMM)
